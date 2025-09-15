@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emmanuel Sibiya | Data Analytics Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f7f9fc;
+      color: #333;
+    }
+    header {
+      background: #0052cc;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin: 10px 0 0;
+      font-size: 1.2rem;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #0052cc;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 10px;
+    }
+    .skills, .projects {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      background: #333;
+      color: white;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    a {
+      color: #0052cc;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Emmanuel Sibiya</h1>
+    <p>Aspiring Data Analyst | Turning Data Into Actionable Insights</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>
+      Hi, I’m Emmanuel, an aspiring Data Analyst passionate about using data to solve business problems 
+      and drive decision-making. I am currently studying Data Analytics and building projects with 
+      Python, SQL, and Power BI.
+    </p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="card">
+        <h3>Technical</h3>
+        <p>SQL, Python, Excel, Power BI, Tableau</p>
+      </div>
+      <div class="card">
+        <h3>Soft Skills</h3>
+        <p>Problem-solving, Communication, Teamwork</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Sales Dashboard with Power BI</h3>
+        <p>Interactive dashboard showing sales trends and KPIs.<br>
+        <strong>Tools:</strong> Excel, Power BI</p>
+      </div>
+      <div class="card">
+        <h3>Customer Data Analysis</h3>
+        <p>Analyzed churn patterns using Python & Pandas.<br>
+        <strong>Tools:</strong> Python, Pandas, Matplotlib</p>
+      </div>
+      <div class="card">
+        <h3>SQL Retail Analytics</h3>
+        <p>Queries to extract customer purchase insights.<br>
+        <strong>Tools:</strong> MySQL/PostgreSQL</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>📧 Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    <p>🔗 LinkedIn: <a href="https://www.linkedin.com/in/your-linkedin/" target="_blank">Your LinkedIn</a></p>
+    <p>💻 GitHub: <a href="https://github.com/your-github" target="_blank">Your GitHub</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Emmanuel Sibiya | Data Analytics Portfolio</p>
+  </footer>
+</body>
+</html>
